@@ -1,0 +1,7 @@
+# https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers#rust
+[[language]]
+name = "rust"
+auto-format = true
+
+[language.config.check]
+command = "clippy"
