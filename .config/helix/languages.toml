@@ -3,5 +3,22 @@
 name = "rust"
 auto-format = true
 
+
+[language.config]
+# addCallParenthesis for VS code only?
+# completion.addCallParenthesis = false
+# completion.addCallParenthesis = "none"
+# completion = { "addCallParenthesis" = false }
+# completion = { addCallParenthesis = false }
+completion.callable.snippets = "add_parentheses"
+# completion.callable.snippets = false
+# completion.callable.snippets = "none"
+# completion.callable.snippets = "None"
+# completion.callable.snippets = "null"
+# completion.callable.snippets = ""
+# "completion.callable.snippets" = "none"
+# completion = { callable = { snippets = "none" }}
+# completion = { "callable" = { "snippets" = "none" }}
+
 [language.config.check]
 command = "clippy"
