@@ -2,7 +2,9 @@
 1. [https://doc.rust-lang.org/book/ch01-01-installation.html](https://doc.rust-lang.org/book/ch01-01-installation.html)
 2. [https://docs.helix-editor.com/install.html#ubuntu](https://docs.helix-editor.com/install.html#ubuntu)
 3. `rustup component add rust-analyzer`
-4. `sudo apt install neovim`  [https://github.com/neovim/neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+4. [https://github.com/neovim/neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+5. Install neovim on Windows so you can copy from Windows --> WSL --> neovim. Or restarting my Windows Terminal fixed it, who knows. [https://www.reddit.com/r/vim/comments/yjwj1i/how_to_copy_and_paste_from_the_windows_clipboard/](https://www.reddit.com/r/vim/comments/yjwj1i/how_to_copy_and_paste_from_the_windows_clipboard/)
+
 # .dotfiles
 * [https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html](https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html)
 
