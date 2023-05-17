@@ -1,7 +1,8 @@
-# install
+# ubuntu install
 1. [https://doc.rust-lang.org/book/ch01-01-installation.html](https://doc.rust-lang.org/book/ch01-01-installation.html)
 2. [https://docs.helix-editor.com/install.html#ubuntu](https://docs.helix-editor.com/install.html#ubuntu)
 3. `rustup component add rust-analyzer`
+4. `sudo apt install neovim`  [https://github.com/neovim/neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 # .dotfiles
 * [https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html](https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html)
 
