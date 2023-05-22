@@ -2,12 +2,36 @@
 1. [https://doc.rust-lang.org/book/ch01-01-installation.html](https://doc.rust-lang.org/book/ch01-01-installation.html)
 2. [https://docs.helix-editor.com/install.html#ubuntu](https://docs.helix-editor.com/install.html#ubuntu)
 3. `rustup component add rust-analyzer`
-4. [https://github.com/neovim/neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-5. Install neovim on Windows so you can copy from Windows --> WSL --> neovim. Or restarting my Windows Terminal fixed it, who knows. [https://www.reddit.com/r/vim/comments/yjwj1i/how_to_copy_and_paste_from_the_windows_clipboard/](https://www.reddit.com/r/vim/comments/yjwj1i/how_to_copy_and_paste_from_the_windows_clipboard/)
+4. ```
+sudo apt-get update
+sudo apt install build-essential
+```
+5. [https://github.com/neovim/neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+6. Install neovim on Windows so you can copy from Windows --> WSL --> neovim. Or restarting my Windows Terminal fixed it, who knows. [https://www.reddit.com/r/vim/comments/yjwj1i/how_to_copy_and_paste_from_the_windows_clipboard/](https://www.reddit.com/r/vim/comments/yjwj1i/how_to_copy_and_paste_from_the_windows_clipboard/)
 
 # .dotfiles
 * [https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html](https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html)
 
+# theprimeagen 0 to LSP neovim
+* Packer
+** [https://github.com/wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+* Telescope
+** [https://github.com/nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+* ripgrep
+** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
+```
+sudo apt-get install ripgrep
+```
+* rose pine
+** [https://github.com/rose-pine/neovim](https://github.com/rose-pine/neovim)
+* tree sitter
+** [https://github.com/nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+* tree sitter playground
+** [https://github.com/nvim-treesitter/playground](https://github.com/nvim-treesitter/playground)
 
 > # A simpler way to manage your dotfiles
 > Like most folks, I use git to manage my dotfiles. This lets me have a versioned backup for my configurations, and if something breaks (and it does often for me) I can revert to a working configuration fairly easily. For a long time, I’ve followed the normal path of having a dotfiles folder and a script that symlinks into the files in it from my $HOME. Recently, I came across this thread in HackerNews and it literally blew my mind. In this post, I would like to share this very elegant solution that avoids the need for any symlinking.
