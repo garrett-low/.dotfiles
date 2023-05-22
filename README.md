@@ -2,7 +2,8 @@
 1. [https://doc.rust-lang.org/book/ch01-01-installation.html](https://doc.rust-lang.org/book/ch01-01-installation.html)
 2. [https://docs.helix-editor.com/install.html#ubuntu](https://docs.helix-editor.com/install.html#ubuntu)
 3. `rustup component add rust-analyzer`
-4. ```
+4. 
+```
 sudo apt-get update
 sudo apt install build-essential
 ```
