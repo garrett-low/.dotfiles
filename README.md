@@ -30,6 +30,13 @@ sudo apt-get install ripgrep
   * [https://github.com/nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 * tree sitter playground
   * [https://github.com/nvim-treesitter/playground](https://github.com/nvim-treesitter/playground)
+* harpoon
+  * [https://github.com/ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon)
+* undo tree
+  * [https://github.com/mbbill/undotree](https://github.com/mbbill/undotree)
+* vim fugitive
+
+## LSP
 
 # .dotfiles
 * [https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html](https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html)
